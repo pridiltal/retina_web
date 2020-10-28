@@ -33,7 +33,7 @@ design:
 <!-- Add font awesome icons -->
  <a href="https://twitter.com/pridiltal" class="fa fa-twitter"></a> &nbsp;
  <a href="https://github.com/RETINALAB" class="fa fa-github"></a>
-</br> </br></br> </br>
+</br> </br></br> </br></br> </br></br> </br>
 
 
 
