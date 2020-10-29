@@ -36,9 +36,9 @@ design:
 </br> </br></br>
 
 
-[Learn more about our acronym: RETINA](https://retinalab.netlify.app/post/acronym/)
+[More about our acronym: RETINA](https://retinalab.netlify.app/post/acronym/)
 
-Learn more about our logo 
+[More about our logo](https://retinalab.netlify.app/post/logo/) 
 </br></br> </br></br> </br>
 
 
