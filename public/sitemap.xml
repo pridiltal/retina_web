@@ -34,7 +34,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -59,7 +59,7 @@
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,8 +73,8 @@
   </url>
   
   <url>
-    <loc>/author/retina-lab/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <loc>/author/retina/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -84,12 +84,17 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/retina/</loc>
+    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -133,7 +138,7 @@
   </url>
   
   <url>
-    <loc>/post/getting-started/</loc>
+    <loc>/post/acronym/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   

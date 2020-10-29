@@ -1,5 +1,5 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 
 email: ""
 highlight_name: false
 interests:
@@ -36,8 +36,14 @@ social:
 #  icon_pack: fab
 #  link: https://www.linkedin.com/
 superuser: true
-title: RETINA Lab
+title: RETINA 
 user_groups:
 ---
 
-to appear ...
+**RETINA:** (**RE**volutionising monitoring systems and **T**echniques in the **IN**formation **A**ge”) is a research and innovation project funded by the [Organization for Women in Science for the Developing World (OWSD)](https://owsd.net/), a program unit of [United Nations Educational, Scientific and Cultural Organization (UNESCO)](https://en.unesco.org/) under the Early Career Fellowship awarded to [Dr. Priyanga Dilini Talagala](https://prital.netlify.app/) (2021-2022).
+
+With the spread of the Internet of Things and as more and more devices are providing live streaming data, detecting anomalies in this data is becoming an increasingly important research topic. Anomaly detection has been explored within diverse research areas and application domains such as fraud detection, health monitoring, and environmental monitoring. Despite the ever-increasing attention and resources devoted to it, some challenges in anomaly detection are not supported by existing methods.  RETINA project is in an attempt to reduce this gap by introducing novel anomaly detection frameworks for data scenarios. 
+
+Learn more about our acronym: RETINA
+
+Learn more about our logo 
