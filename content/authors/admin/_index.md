@@ -44,6 +44,6 @@ user_groups:
 
 With the spread of the Internet of Things and as more and more devices are providing live streaming data, detecting anomalies in this data is becoming an increasingly important research topic. Anomaly detection has been explored within diverse research areas and application domains such as fraud detection, health monitoring, and environmental monitoring. Despite the ever-increasing attention and resources devoted to it, some challenges in anomaly detection are not supported by existing methods.  RETINA project is in an attempt to reduce this gap by introducing novel anomaly detection frameworks for data scenarios. 
 
-Learn more about our acronym: RETINA
+[Learn more about our acronym: RETINA](https://retinalab.netlify.app/post/acronym/)
 
 Learn more about our logo 

@@ -2,18 +2,20 @@
 authors:
 - admin
 categories: []
-date: "2019-02-05T00:00:00Z"
+date: "2020-10-29T01:00:00Z"
 draft: false
 featured: false
 image:
   caption: ""
   focal_point: ""
-lastMod: "2019-09-05T00:00:00Z"
+lastMod: "2020-10-29T01:00:00Z"
 projects: []
-subtitle: Learn how to blog in Academic using Jupyter notebooks
-summary: Learn how to blog in Academic using Jupyter notebooks
-tags: []
-title: Display Jupyter Notebooks with Academic
+subtitle: 
+summary: 
+tags:
+- RETINA
+- research
+title: Learn more about our logo
 ---
 
 ```python

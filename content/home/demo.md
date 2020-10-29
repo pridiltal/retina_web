@@ -36,7 +36,7 @@ design:
 </br> </br></br>
 
 
-Learn more about our acronym: RETINA
+[Learn more about our acronym: RETINA](https://retinalab.netlify.app/post/acronym/)
 
 Learn more about our logo 
 </br></br> </br></br> </br>
