@@ -7,6 +7,12 @@
   name = "Home"
   url = "#demo"
   weight = 5
+  
+
+[[main]]
+  name = "About Us"
+  url = "#about"
+  weight = 10
 
 [[main]]
   name = "Posts"
