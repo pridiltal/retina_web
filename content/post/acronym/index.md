@@ -15,9 +15,8 @@ lastmod: "2020-10-29T00:00:00Z"
 projects: []
 subtitle: 
 summary: 
-tags:
+tags: 
 - RETINA
-- research
 title: 'Learn more about our acronym: RETINA'
 ---
 

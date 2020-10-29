@@ -2,24 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RETINA | RETINA LAB</title>
-    <link>/tag/retina/</link>
-      <atom:link href="/tag/retina/index.xml" rel="self" type="application/rss+xml" />
+    <link>/category/retina/</link>
+      <atom:link href="/category/retina/index.xml" rel="self" type="application/rss+xml" />
     <description>RETINA</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Oct 2020 01:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu6243d39d49d70e0dc0792b3049765174_81132_512x512_fill_lanczos_center_2.png</url>
       <title>RETINA</title>
-      <link>/tag/retina/</link>
+      <link>/category/retina/</link>
     </image>
-    
-    <item>
-      <title>Learn more about our logo</title>
-      <link>/post/logo/</link>
-      <pubDate>Thu, 29 Oct 2020 01:00:00 +0000</pubDate>
-      <guid>/post/logo/</guid>
-      <description>&lt;p&gt;to appear&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Learn more about our acronym: RETINA</title>
