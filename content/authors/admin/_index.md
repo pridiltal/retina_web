@@ -14,6 +14,7 @@ interests:
 - Applied statistics
 - Open Science
 - Women in STEM
+
 organizations:
 - name: 
   url: 
@@ -37,7 +38,6 @@ social:
 superuser: true
 title: RETINA Lab
 user_groups:
-- Principal Investigators
 ---
 
 to appear ...
