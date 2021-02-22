@@ -19,33 +19,33 @@
   url = "#projects"
   weight = 20
 
-[[main]]
-  name = "Talks"
-  url = "#talks"
-  weight = 25
+#[[main]]
+#  name = "Talks"
+#  url = "#talks"
+#  weight = 25
   
 [[main]]
   name = "Posts"
   url = "#posts"
   weight = 30
 
-[[main]]
-  name = "Publications"
-  url = "#publications"
-  weight = 40
+#[[main]]
+#  name = "Publications"
+#  url = "#publications"
+#  weight = 40
 
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
+#[[main]]
+#  name = "Courses"
+# url = "courses/"
+#  weight = 50
 
-[[main]]
-  name = "Gallery"
-  url = "#gallery"
-  weight = 55
+#[[main]]
+#  name = "Gallery"
+#  url = "#gallery"
+#  weight = 55
   
 [[main]]
-  name = "Board"
+  name = "Research Team"
   url = "#people"
   weight = 60
   
