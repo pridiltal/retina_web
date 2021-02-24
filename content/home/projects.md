@@ -27,7 +27,7 @@ subtitle = ""
   
   [[content.filter_button]]
     name = "Anomaly Detection"
-    tag = "Anomaly Detection"
+    tag = "Anomaly-Detection"
   
   [[content.filter_button]]
     name = "Other"
