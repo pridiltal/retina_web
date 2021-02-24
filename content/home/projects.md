@@ -30,6 +30,10 @@ subtitle = ""
     tag = "Anomaly-Detection"
   
   [[content.filter_button]]
+    name = "Open Science"
+    tag = "Open-Science" 
+  
+  [[content.filter_button]]
     name = "Other"
     tag = "Demo"
 
