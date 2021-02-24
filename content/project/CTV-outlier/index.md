@@ -1,6 +1,6 @@
 ---
 date: "2021-02-24T00:00:00Z"
-external_link: CTV-outlier
+external_link: https://github.com/pridiltal/ctv-AnomalyDetection
 image:
   caption: ""
   focal_point: Smart
