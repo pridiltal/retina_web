@@ -44,10 +44,10 @@
 #  url = "#gallery"
 #  weight = 55
   
-[[main]]
-  name = "Research Team"
-  url = "#people"
-  weight = 60
+#[[main]]
+#  name = "Research Team"
+#  url = "#people"
+#  weight = 60
   
 [[main]]
   name = "Contact"
