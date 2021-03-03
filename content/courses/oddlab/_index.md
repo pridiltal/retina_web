@@ -17,3 +17,5 @@ weight: 1
 ## About ODDLab
 
 ODDLab is a Virtual Research Laboratory (VRL) that supports the scientific work, education, knowledge exchange and intelligent searching in the field of Outlier Detection.
+
+## Code of Conduct

@@ -1,10 +1,10 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: ML Intro
+linktitle: ML Reading Group
 menu:
   example:
-    parent: Reading Group
+    parent: Reading Groups
     weight: 1
 title: Rading Group for Machine Learning
 toc: true
