@@ -6,7 +6,7 @@ menu:
   example:
     parent: Reading Groups
     weight: 2
-title: Rading Group for Machine Learning
+title: Rading Group for Deep Learning
 toc: true
 type: docs
 weight: 2
