@@ -1,0 +1,17 @@
+---
+date: "2019-05-05T00:00:00+01:00"
+draft: false
+linktitle: DL intro
+menu:
+  example:
+    parent: Reading Group
+    weight: 2
+title: Rading Group for Machine Learning
+toc: true
+type: docs
+weight: 2
+---
+
+## Resources
+
+## Weekly Meetings

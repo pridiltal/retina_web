@@ -3,6 +3,6 @@ header:
   caption: ""
   image: ""
 layout: docs
-title: Courses
+title: ODDLab - (Outlier Detection for Development Lab)
 ---
 
