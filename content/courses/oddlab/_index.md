@@ -5,7 +5,7 @@ lastmod: "2021-03-03T00:00:00Z"
 linktitle: Visit ODDLab
 menu:
   example:
-    name: Overview
+    name: ODDLab
     weight: 1
 summary: ODDLab is a Virtual Research Laboratory (VRL) that supports the scientific work, education, knowledge exchange and intelligent searching in the field of Outlier Detection.
 title: ODDLab - Outlier Detection for Development Lab
@@ -14,6 +14,6 @@ type: docs
 weight: 1
 ---
 
-# About ODDLab
+## About ODDLab
 
 ODDLab is a Virtual Research Laboratory (VRL) that supports the scientific work, education, knowledge exchange and intelligent searching in the field of Outlier Detection.
