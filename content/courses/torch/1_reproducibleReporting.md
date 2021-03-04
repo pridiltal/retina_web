@@ -4,7 +4,7 @@ draft: false
 linktitle: Reproducible Reporting
 menu:
   example:
-    parent: TORCH
+    parent: TORCH (Tips fOr ResearCH)
     weight: 2
 title: Reproducible Reporting
 toc: true
