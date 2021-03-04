@@ -1,20 +1,20 @@
 ---
-date: "2021-02-01T00:00:00Z"
+date: "2021-03-04T00:00:00Z"
 draft: false
 lastmod: "2021-03-03T00:00:00Z"
 linktitle: Visit ODDLab
 menu:
   example:
-    name: ReadingGroups
+    name: torch
     weight: 1
 summary: ODDLab is a Virtual Research Laboratory (VRL) that supports the scientific work, education, knowledge exchange and intelligent searching in the field of Outlier Detection.
-title: ODDLab - Outlier Detection for Development Lab
+title: TORCH - Tips fOr ResearCH
 toc: true
 type: docs
 weight: 1
 ---
 
-## About ODDLab
+## TORCH - Tips fOr ResearCH
 
 ODDLab is a Virtual Research Laboratory (VRL) that supports the scientific work, education, knowledge exchange and intelligent searching in the field of Outlier Detection and related topics.
 
