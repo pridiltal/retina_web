@@ -27,4 +27,3 @@ The [retina](https://en.wikipedia.org/wiki/Retina) is a layer of nerve cells loc
 
 Just like the retina helps us to convert light into signals that our brain can interpret, the projects under  RETINA are expected to convert the data signals into interpretable results through statistics, mathematics and machine learning  based frameworks for anomaly detection. The overall aim of this project is therefore to tackle the key mathematical challenges in the early detection of anomalies in different data scenarios.
 
-
