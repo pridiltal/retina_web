@@ -23,9 +23,8 @@ The [RETINA project](https://retinalab.netlify.app/post/acronym/) focuses on fou
 
 2. The central part of the logo contains [Florence Nightingale’s](https://en.wikipedia.org/wiki/Florence_Nightingale) "Rose" diagram. Data Visualization is one of the major pillars of Data Science and Florence Nightingale is a pioneer in the visual presentation of information and statistical graphics. She is a statistician and the founder of modern nursing and Rose plot is one of her unique contributions to data visualization. The RETINA logo recognizes the achievements and contributions of all the women in STEM fields.
 
-![Florence Nightingale. Diagram of the Causes of Mortality in the Army of the East, 1858. Image source: https://www.maharam.com/stories/sherlock_florence-nightingales-rose-diagram](maharam-stories_web-01.jpg).
-
-
+![Florence Nightingale. Diagram of the Causes of Mortality in the Army of the East, 1858. Image source: https://www.maharam.com/stories/sherlock_florence-nightingales-rose-diagram](maharam-stories_web-01.jpg)
+*Florence Nightingale. Diagram of the Causes of Mortality in the Army of the East, 1858. Image source: https://www.maharam.com/stories/sherlock_florence-nightingales-rose-diagram*
 
 3. Anomaly detection is an important research area of data mining and it is one of the key focuses of the RETINA project. The rose plot in the logo also contains an anomaly to symbolizes its main focus.
 
