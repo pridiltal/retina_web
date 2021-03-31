@@ -15,8 +15,7 @@ weight: 2
 ### The OSEMN framework
 
 ![Data Science Process (a.k.a the O.S.E.M.N. framework)](/courses/torch/1_OSEMN.png)
-Figure: Data Science Process (a.k.a the O.S.E.M.N. framework
-
+Figure 1: Data Science Process (a.k.a the O.S.E.M.N. framework <br/>
 Image source: https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492
 
 -  The [OSEMN framework](https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492) is comprised of 5 major steps that help us to focus and prioritize the right data science tasks at different stages:   
@@ -32,9 +31,8 @@ Image source: https://towardsdatascience.com/5-steps-of-a-data-science-project-l
     - Hyperparameters are external to the model and cannot be estimated from data.
     - *Hyperparameter optimization or tuning* is the process of searching for the ideal model architecture (a set of optimal hyperparameters).
     
-![Model Data](/courses/torch/2_model_data.png)
-Figure: Model Data
-
+![Model Data](/courses/torch/2_model_data.png  "Model Data")
+Figure 2: Model Data  <br/>
 Image source: https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492
 
   5. **I**nterpretation of Data.
@@ -44,7 +42,9 @@ Image source: https://towardsdatascience.com/5-steps-of-a-data-science-project-l
 
 - Tidy workflow in [R for Data Science (Wickham and Grolemund 2017)](https://r4ds.had.co.nz/introduction.html), describes the tools needed in a typical data science project. 
 
-![Tidy Workflow in data science, with Tidyverse](/courses/torch/3_tidyworkflow.png)
+![Tidy Workflow in data science](/courses/torch/3_tidy_workflow.png)
+Figure 3: Tidy Workflow in data science  <br/>
+Image source: https://r4ds.had.co.nz/introduction.html
 
 **R**
 
@@ -81,6 +81,3 @@ xml2 | |  | | |
 - [5 Steps of a Data Science Project Lifecycle](https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492)
 
 - [R for Data Science](https://r4ds.had.co.nz/introduction.html)
-
-- [R Cheat Sheet: Data Science Workflow with R](https://www.business-science.io/learning-r/2018/11/04/data-science-r-cheatsheet.html)
-
