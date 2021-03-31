@@ -1,6 +1,6 @@
 ---
-date: "2021-03-31T00:00:00+01:00"
-draft: true
+date: "2021-03-30T00:00:00+01:00"
+draft: false
 linktitle: Machine Learning Algorithms
 menu:
   example:
