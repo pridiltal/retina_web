@@ -2,30 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | RETINA LAB</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://retinalab.netlify.app/post/</link>
+      <atom:link href="https://retinalab.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Oct 2020 01:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Mar 2021 01:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu6243d39d49d70e0dc0792b3049765174_81132_512x512_fill_lanczos_center_2.png</url>
+      <url>https://retinalab.netlify.app/images/icon_hu6243d39d49d70e0dc0792b3049765174_81132_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>https://retinalab.netlify.app/post/</link>
     </image>
     
     <item>
       <title>Learn more about our logo</title>
-      <link>/post/logo/</link>
-      <pubDate>Thu, 29 Oct 2020 01:00:00 +0000</pubDate>
-      <guid>/post/logo/</guid>
-      <description>&lt;p&gt;to appear&lt;/p&gt;
+      <link>https://retinalab.netlify.app/post/logo/</link>
+      <pubDate>Mon, 08 Mar 2021 01:00:00 +0000</pubDate>
+      <guid>https://retinalab.netlify.app/post/logo/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://retinalab.netlify.app/post/acronym/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RETINA project&lt;/a&gt; focuses on four different areas: &lt;a href=&#34;https://en.wikipedia.org/wiki/Anomaly_detection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anomaly Detection&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Data_science&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Science&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Open_science&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Science&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Women_in_STEM_fields&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Women in STEM fields&lt;/a&gt;. The RETINA logo is a symbolic representation of these key focuses of the RETINA project.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The retina is a layer of nerve cells located on the back inside wall of our eyeball which helps us to convert light into signals that our brain can interpret. Several parts of the eye are associated with the retina.  Under RETINA project, we do collaborative research to pursue key mathematical challenges in anomaly detection. The RETINA project logo represents the retina inside an eye.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The central part of the logo contains &lt;a href=&#34;https://en.wikipedia.org/wiki/Florence_Nightingale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Florence Nightingale’s&lt;/a&gt; &amp;ldquo;Rose&amp;rdquo; diagram. Data Visualization is one of the major pillars of Data Science and Florence Nightingale is a pioneer in the visual presentation of information and statistical graphics. She is a statistician and the founder of modern nursing and Rose plot is one of her unique contributions to data visualization. The RETINA logo recognizes the achievements and contributions of all the women in STEM fields.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;maharam-stories_web-01.jpg&#34; alt=&#34;Florence Nightingale. Diagram of the Causes of Mortality in the Army of the East, 1858. Image source: https://www.maharam.com/stories/sherlock_florence-nightingales-rose-diagram&#34;&gt;
+&lt;em&gt;Florence Nightingale. Diagram of the Causes of Mortality in the Army of the East, 1858. Image source: &lt;a href=&#34;https://www.maharam.com/stories/sherlock_florence-nightingales-rose-diagram&#34;&gt;https://www.maharam.com/stories/sherlock_florence-nightingales-rose-diagram&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Anomaly detection is an important research area of data mining and it is one of the key focuses of the RETINA project. The rose plot in the logo also contains an anomaly to symbolizes its main focus.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://retinalab.netlify.app/post/acronym/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Learn more about our acronym: RETINA, here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Learn more about our acronym: RETINA</title>
-      <link>/post/acronym/</link>
+      <link>https://retinalab.netlify.app/post/acronym/</link>
       <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/post/acronym/</guid>
+      <guid>https://retinalab.netlify.app/post/acronym/</guid>
       <description>&lt;p&gt;Our acronym stands for &amp;ldquo;&lt;strong&gt;RE&lt;/strong&gt;volutionising monitoring systems and &lt;strong&gt;T&lt;/strong&gt;echniques in the &lt;strong&gt;IN&lt;/strong&gt;formation &lt;strong&gt;A&lt;/strong&gt;ge.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Retina&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retina&lt;/a&gt; is a layer of nerve cells located on the back inside wall of our eyeball, near the optic nerve that helps to convert light into signals that our brain can interpret.&lt;/p&gt;
 &lt;p&gt;Just like the retina helps us to convert light into signals that our brain can interpret, the projects under  RETINA are expected to convert the data signals into interpretable results through statistics, mathematics and machine learning  based frameworks for anomaly detection. The overall aim of this project is therefore to tackle the key mathematical challenges in the early detection of anomalies in different data scenarios.&lt;/p&gt;

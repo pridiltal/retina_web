@@ -3,173 +3,187 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/courses/example/example1/</loc>
+    <loc>https://retinalab.netlify.app/courses/oddlab/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/courses/oddlab/mlreading/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <loc>https://retinalab.netlify.app/courses/torch/2_data_science_life_cycle/</loc>
+    <lastmod>2021-03-30T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/example2/</loc>
+    <loc>https://retinalab.netlify.app/courses/torch/1_reproduciblereporting/</loc>
+    <lastmod>2021-02-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/courses/oddlab/dlreading/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://retinalab.netlify.app/courses/</loc>
+    <lastmod>2021-03-30T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://retinalab.netlify.app/</loc>
+    <lastmod>2021-03-30T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://retinalab.netlify.app/authors/</loc>
+    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-10-29T01:00:00+00:00</lastmod>
+    <loc>https://retinalab.netlify.app/post/logo/</loc>
+    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/logo/</loc>
-    <lastmod>2020-10-29T01:00:00+00:00</lastmod>
+    <loc>https://retinalab.netlify.app/post/</loc>
+    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-10-29T01:00:00+00:00</lastmod>
+    <loc>https://retinalab.netlify.app/tag/retina/</loc>
+    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/retina/</loc>
-    <lastmod>2020-10-29T01:00:00+00:00</lastmod>
+    <loc>https://retinalab.netlify.app/author/retina/</loc>
+    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/retina/</loc>
-    <lastmod>2020-10-29T01:00:00+00:00</lastmod>
+    <loc>https://retinalab.netlify.app/tags/</loc>
+    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-10-29T01:00:00+00:00</lastmod>
+    <loc>https://retinalab.netlify.app/project/mask/</loc>
+    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://retinalab.netlify.app/tag/anomaly-detection/</loc>
+    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/project/ctv-outlier/</loc>
+    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/project/iambilingual/</loc>
+    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/tag/open-science/</loc>
+    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/project/outfit/</loc>
+    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/project/</loc>
+    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/categories/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/acronym/</loc>
+    <loc>https://retinalab.netlify.app/post/acronym/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/priyanga-dilini-talagala/</loc>
+    <loc>https://retinalab.netlify.app/author/priyanga-dilini-talagala/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/retina/</loc>
+    <loc>https://retinalab.netlify.app/category/retina/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/3/</loc>
+    <loc>https://retinalab.netlify.app/publication-type/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/preprint/</loc>
+    <loc>https://retinalab.netlify.app/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>https://retinalab.netlify.app/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>https://retinalab.netlify.app/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/source-themes/</loc>
+    <loc>https://retinalab.netlify.app/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/</loc>
+    <loc>https://retinalab.netlify.app/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/example/</loc>
+    <loc>https://retinalab.netlify.app/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/2/</loc>
+    <loc>https://retinalab.netlify.app/publication-type/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/journal-article/</loc>
+    <loc>https://retinalab.netlify.app/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/robert-ford/</loc>
+    <loc>https://retinalab.netlify.app/author/robert-ford/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication-type/1/</loc>
+    <loc>https://retinalab.netlify.app/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/conference-paper/</loc>
+    <loc>https://retinalab.netlify.app/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/talk/</loc>
   </url>
   
 </urlset>

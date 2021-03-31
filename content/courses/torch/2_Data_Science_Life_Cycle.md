@@ -12,11 +12,14 @@ type: docs
 weight: 2
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+### The OSEMN framework
 
-### 5 Steps of a Data Science Project Lifecycle
+-  The OSEMN framework is comprised of 5 major steps that help us to focus and prioritize the right data science tasks at different stages:   1. **O**btaining Data
+  2. **S**crubbing Data
+  3. **E**xploring Data
+  4. **M**odelling Data 
+  5. **I**nterpretation of Data.
+  
 
 #### References
 

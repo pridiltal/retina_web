@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ODDLab - Outlier Detection for Development Lab | RETINA LAB</title>
+    <link>https://retinalab.netlify.app/courses/oddlab/</link>
+      <atom:link href="https://retinalab.netlify.app/courses/oddlab/index.xml" rel="self" type="application/rss+xml" />
+    <description>ODDLab - Outlier Detection for Development Lab</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://retinalab.netlify.app/images/icon_hu6243d39d49d70e0dc0792b3049765174_81132_512x512_fill_lanczos_center_2.png</url>
+      <title>ODDLab - Outlier Detection for Development Lab</title>
+      <link>https://retinalab.netlify.app/courses/oddlab/</link>
+    </image>
+    
+    <item>
+      <title>Reading Group for Machine Learning</title>
+      <link>https://retinalab.netlify.app/courses/oddlab/mlreading/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://retinalab.netlify.app/courses/oddlab/mlreading/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Machine learning research uses theoretical concepts from a variety of mathematical fields such as convex optimization, probability, statistics, functional analysis, calculus and computational learning theory. It is vital to get familiar with these mathematical concepts in order to fully participate in many exciting research directions. The purpose of this reading group is to gain a better understanding of some mathematical foundations relevant to machine learning research.&lt;/p&gt;
+&lt;h2 id=&#34;meeting-format&#34;&gt;Meeting format&lt;/h2&gt;
+&lt;p&gt;The ODDLab Reading Group meets regularly (usually weekly) to discuss topics on Machine Learning tools and techniques.&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://themlbook.com/wiki/doku.php?id=start&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Hundred-Page Machine Learning Book by Andriy Burkov&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Week 1- &lt;a href=&#34;https://www.dropbox.com/s/lrhtt1wkffnm4fe/Chapter1.pdf?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Hundred-Page Machine Learning Book-Chapter1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rading Group for Deep Learning</title>
+      <link>https://retinalab.netlify.app/courses/oddlab/dlreading/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://retinalab.netlify.app/courses/oddlab/dlreading/</guid>
+      <description>&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;h2 id=&#34;weekly-meetings&#34;&gt;Weekly Meetings&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
