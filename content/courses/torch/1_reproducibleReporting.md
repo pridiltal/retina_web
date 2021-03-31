@@ -5,11 +5,11 @@ linktitle: Reproducible Reporting
 menu:
   example:
     parent: TORCH 
-    weight: 2
+    weight: 1
 title: Reproducible Reporting
 toc: true
 type: docs
-weight: 2
+weight: 1
 ---
 
 ## TORCH (Tips fOr ResearCH)
