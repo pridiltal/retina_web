@@ -31,7 +31,7 @@ Image source: https://towardsdatascience.com/5-steps-of-a-data-science-project-l
     - Hyperparameters are external to the model and cannot be estimated from data.
     - *Hyperparameter optimization or tuning* is the process of searching for the ideal model architecture (a set of optimal hyperparameters).
     
-![Model Data](/courses/torch/2_model_data.png  "Model Data")
+![Model Data](/courses/torch/2_model_data.png)
 Figure 2: Model Data  <br/>
 Image source: https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492
 
