@@ -5,12 +5,47 @@
     <link>https://retinalab.netlify.app/author/retina/</link>
       <atom:link href="https://retinalab.netlify.app/author/retina/index.xml" rel="self" type="application/rss+xml" />
     <description>RETINA</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Mar 2021 01:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://retinalab.netlify.app/images/icon_hu6243d39d49d70e0dc0792b3049765174_81132_512x512_fill_lanczos_center_2.png</url>
       <title>RETINA</title>
       <link>https://retinalab.netlify.app/author/retina/</link>
     </image>
+    
+    <item>
+      <title>Fundamental Laws of Set Algebra- Root Digging</title>
+      <link>https://retinalab.netlify.app/post/1_set_theory/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://retinalab.netlify.app/post/1_set_theory/</guid>
+      <description>&lt;p&gt;This post provides an  intuition about the names of the fundamental laws of Set Algebra.&lt;/p&gt;
+&lt;p&gt;A &lt;em&gt;set&lt;/em&gt; can be viewed as any  well-defined collection of &lt;em&gt;objects&lt;/em&gt;. The objects in a set may or may not have similar properties. The word &amp;ldquo;set&amp;rdquo; has a Latin origin and is derived from the word  &lt;em&gt;&amp;ldquo;secta&amp;rdquo;&lt;/em&gt; or &lt;em&gt;&amp;ldquo;sect&amp;rdquo;&lt;/em&gt;. The Latin root &lt;em&gt;sect&lt;/em&gt; means &amp;ldquo;cut&amp;rdquo;.  &lt;a href=&#34;https://membean.com/wrotds/sect-cut&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Many English words, such as &lt;strong&gt;sect&lt;/strong&gt;ion, &lt;strong&gt;sect&lt;/strong&gt;or, in&lt;strong&gt;sect&lt;/strong&gt;, dis&lt;strong&gt;sect&lt;/strong&gt;, and inter&lt;strong&gt;sect&lt;/strong&gt;  also  have this Latin root&lt;/a&gt;.
+The word &lt;em&gt;sect&lt;/em&gt; also refers to a subgroup of a religious, political, or philosophical belief system.&lt;/p&gt;
+&lt;h2 id=&#34;algebra-of-sets&#34;&gt;Algebra of Sets&lt;/h2&gt;
+&lt;p&gt;Sets under the operations of union, intersection, and complement satisfy various laws with well-established names. The roots of these names they borrow from other languages provide  additional intuition and
+understanding of the underlying concepts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Laws of the Algebra of Sets&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Idempotent Laws&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[A\cup A =A \quad\quad\quad\quad A\cap A =A]&lt;/p&gt;
+&lt;p&gt;$A\cup A =A \quad\quad\quad\quad A\cap A =A$&lt;/p&gt;
+&lt;p&gt;$$A\cup A =A \quad\quad\quad\quad A\cap A =A$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Associative Laws&lt;/strong&gt;&lt;br&gt;
+$$(A\cup B)\cup C =A\cup (B\cup C) \quad\quad\quad\quad (A\cap B)\cap C =A\cap (B\cap C)$$
+&lt;strong&gt;Commutative Laws&lt;/strong&gt;&lt;br&gt;
+$$A\cup B =B\cup A\quad\quad\quad\quad A\cap B = B\cap A$$
+&lt;strong&gt;Distributive Laws&lt;/strong&gt;&lt;br&gt;
+$$A\cup( B \cap C) = (A \cup B) \cap (A\cup C)\quad\quad\quad\quad A\cap( B \cup C) = (A \cap B) \cup (A\cap C)$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Identity Laws&lt;/strong&gt;&lt;br&gt;
+$$A \cup \phi =A\quad\quad\quad\quad A \cap \phi =\phi$$&lt;/p&gt;
+&lt;p&gt;$$A \cup U =U\quad\quad\quad\quad A \cap U =A$$
+&lt;strong&gt;Involution Law&lt;/strong&gt;&lt;br&gt;
+$$(A^\prime)^\prime = A$$
+&lt;strong&gt;Complement Laws&lt;/strong&gt;&lt;br&gt;
+$$A \cup A^\prime =U\quad\quad\quad\quad A \cap A^\prime =\phi$$
+$$U^\prime =\phi \quad\quad\quad\quad \phi^\prime =U$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DeMorgan&amp;rsquo;s Laws&lt;/strong&gt;&lt;br&gt;
+$$(A \cup B)^\prime =A^\prime \cap B^\prime\quad\quad\quad\quad (A \cap B)^\prime= A^\prime \cup B^\prime$$&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Learn more about our logo</title>

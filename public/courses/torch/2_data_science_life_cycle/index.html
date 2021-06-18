@@ -34,7 +34,8 @@
   
     
   
-  <meta name="description" content="The OSEMN framework  The OSEMN framework is comprised of 5 major steps that help us to focus and prioritize the right data science tasks at different stages: 1. Obtaining Data  Scrubbing Data Exploring Data Modelling Data Interpretation of Data.">
+  <meta name="description" content="The OSEMN framework Figure 1: Data Science Process (a.k.a the O.S.E.M.N. framework  Image source: https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492
+ The OSEMN framework is comprised of 5 major steps that help us to focus and prioritize the right data science tasks at different stages:   Obtaining Data Scrubbing Data Exploring Data Modelling Data    Model parameter estimation">
 
   
   <link rel="alternate" hreflang="en-us" href="https://retinalab.netlify.app/courses/torch/2_data_science_life_cycle/">
@@ -281,7 +282,8 @@
   <meta property="og:site_name" content="RETINA LAB">
   <meta property="og:url" content="https://retinalab.netlify.app/courses/torch/2_data_science_life_cycle/">
   <meta property="og:title" content="Data Science Life Cycle | RETINA LAB">
-  <meta property="og:description" content="The OSEMN framework  The OSEMN framework is comprised of 5 major steps that help us to focus and prioritize the right data science tasks at different stages: 1. Obtaining Data  Scrubbing Data Exploring Data Modelling Data Interpretation of Data."><meta property="og:image" content="https://retinalab.netlify.app/images/icon_hu6243d39d49d70e0dc0792b3049765174_81132_512x512_fill_lanczos_center_2.png">
+  <meta property="og:description" content="The OSEMN framework Figure 1: Data Science Process (a.k.a the O.S.E.M.N. framework  Image source: https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492
+ The OSEMN framework is comprised of 5 major steps that help us to focus and prioritize the right data science tasks at different stages:   Obtaining Data Scrubbing Data Exploring Data Modelling Data    Model parameter estimation"><meta property="og:image" content="https://retinalab.netlify.app/images/icon_hu6243d39d49d70e0dc0792b3049765174_81132_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://retinalab.netlify.app/images/icon_hu6243d39d49d70e0dc0792b3049765174_81132_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -720,8 +722,13 @@
   </div>
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/torch/2_data_science_life_cycle/">TORCH</a>
+    <a class="docs-toc-link" href="/courses/torch/1_reproduciblereporting/">TORCH</a>
     <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/torch/1_reproduciblereporting/">Reproducible Reporting</a>
+      </li>
+
       
       <li class="active">
         <a href="/courses/torch/2_data_science_life_cycle/">Data Science Life Cycle</a>
@@ -729,7 +736,7 @@
 
       
       <li >
-        <a href="/courses/torch/1_reproduciblereporting/">Reproducible Reporting</a>
+        <a href="/courses/torch/3_ml_algorithms/">Machine Learning Algorithms</a>
       </li>
 
       
@@ -757,6 +764,14 @@
       </ul>
     </li>
   </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#jupyter-notebook-vs-jupyterlab">Jupyter Notebook vs JupyterLab</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 
       
@@ -772,19 +787,180 @@
 
           <div class="article-style">
             <h3 id="the-osemn-framework">The OSEMN framework</h3>
+<p><img src="/courses/torch/1_OSEMN.png" alt="Data Science Process (a.k.a the O.S.E.M.N. framework)">
+Figure 1: Data Science Process (a.k.a the O.S.E.M.N. framework <br/>
+Image source: <a href="https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492">https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492</a></p>
 <ul>
-<li>The OSEMN framework is comprised of 5 major steps that help us to focus and prioritize the right data science tasks at different stages:   1. <strong>O</strong>btaining Data</li>
+<li>The <a href="https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492" target="_blank" rel="noopener">OSEMN framework</a> is comprised of 5 major steps that help us to focus and prioritize the right data science tasks at different stages:</li>
 </ul>
-<ol start="2">
+<ol>
+<li><strong>O</strong>btaining Data</li>
 <li><strong>S</strong>crubbing Data</li>
 <li><strong>E</strong>xploring Data</li>
 <li><strong>M</strong>odelling Data</li>
+</ol>
+<ul>
+<li>
+<p>Model parameter estimation</p>
+</li>
+<li>
+<p>Hyper-parameter tuning</p>
+<ul>
+<li><em>Hyperparameters</em> are the parameters that define the model architecture.</li>
+<li>Hyperparameters are external to the model and cannot be estimated from data.</li>
+<li><em>Hyperparameter optimization or tuning</em> is the process of searching for the ideal model architecture (a set of optimal hyperparameters).</li>
+</ul>
+</li>
+</ul>
+<p><img src="/courses/torch/2_model_data.png" alt="Model Data">
+Figure 2: Model Data  <br/>
+Image source: <a href="https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492">https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492</a></p>
+<ol start="5">
 <li><strong>I</strong>nterpretation of Data.</li>
 </ol>
-<p><img src="./fig/1_OSEMN.png" alt=""></p>
+<h1 id="tidy-workflow-in-data-science">Tidy workflow in Data Science</h1>
+<ul>
+<li>Tidy workflow in <a href="https://r4ds.had.co.nz/introduction.html" target="_blank" rel="noopener">R for Data Science (Wickham and Grolemund 2017)</a>, describes the tools needed in a typical data science project.</li>
+</ul>
+<p><img src="/courses/torch/3_tidy_workflow.png" alt="Tidy Workflow in data science">
+Figure 3: Tidy Workflow in data science  <br/>
+Image source: <a href="https://r4ds.had.co.nz/introduction.html">https://r4ds.had.co.nz/introduction.html</a></p>
+<p><strong>R</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Import</strong></th>
+<th><strong>Tidy</strong></th>
+<th><strong>Transform</strong></th>
+<th><strong>Visualize</strong></th>
+<th><strong>Model</strong></th>
+<th><strong>Communicate</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>readr</td>
+<td>tidyr</td>
+<td>dplyr</td>
+<td>ggplot2</td>
+<td>broom</td>
+<td>rmarkdown</td>
+</tr>
+<tr>
+<td>heaven</td>
+<td>tibble</td>
+<td>lubridate</td>
+<td></td>
+<td>tidymodels</td>
+<td>bookdown</td>
+</tr>
+<tr>
+<td>readxl</td>
+<td></td>
+<td>forcats</td>
+<td></td>
+<td>modelr</td>
+<td>knitr</td>
+</tr>
+<tr>
+<td>htr</td>
+<td></td>
+<td>stringr</td>
+<td></td>
+<td></td>
+<td>shiny</td>
+</tr>
+<tr>
+<td>rvest</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>xml2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Python</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>Import</strong></th>
+<th style="text-align:center"><strong>Tidy</strong></th>
+<th style="text-align:center"><strong>Transform</strong></th>
+<th style="text-align:center"><strong>Visualize</strong></th>
+<th style="text-align:center"><strong>Model</strong></th>
+<th style="text-align:center"><strong>Communicate</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="https://pandas.pydata.org/pandas-docs/stable/index.html" target="_blank" rel="noopener">pandas - tabular data</a></td>
+<td style="text-align:center">pandas</td>
+<td style="text-align:center">pandas</td>
+<td style="text-align:center"><a href="https://matplotlib.org/index.html" target="_blank" rel="noopener">matplotlib</a></td>
+<td style="text-align:center"><a href="https://scikit-learn.org/stable/index.html" target="_blank" rel="noopener">Scikit-Learn</a></td>
+<td style="text-align:center">Jupyter Notebook</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://numpy.org/" target="_blank" rel="noopener">numpy (numerical data)</a></td>
+<td style="text-align:center"><a href="http://seaborn.pydata.org/" target="_blank" rel="noopener">seaborn</a></td>
+<td style="text-align:center"><a href="https://www.statsmodels.org/devel/" target="_blank" rel="noopener">statsmodels</a></td>
+<td style="text-align:center"><a href="https://jupyterlab.readthedocs.io/en/stable/" target="_blank" rel="noopener">JupyterLab</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://plotnine.readthedocs.io/en/stable/" target="_blank" rel="noopener">plotnine</a> (GoG)</td>
+<td style="text-align:center"><a href="https://www.tensorflow.org/" target="_blank" rel="noopener">TensorFlow</a></td>
+<td style="text-align:center"><a href="https://plotly.com/dash/" target="_blank" rel="noopener">Dash</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://plotly.com/python/" target="_blank" rel="noopener">plotly</a></td>
+<td style="text-align:center"><a href="https://keras.io/" target="_blank" rel="noopener">keras</a></td>
+<td style="text-align:center"><a href="https://streamlit.io/" target="_blank" rel="noopener">streamlit</a></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank" rel="noopener">Flask</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="jupyter-notebook-vs-jupyterlab">Jupyter Notebook vs JupyterLab</h3>
+<ul>
+<li>
+<p>Jupyter Notebook is a web-based interactive computational environment for creating Jupyter notebook documents.</p>
+</li>
+<li>
+<p>JupyterLab is the next-generation user interface including notebooks. It has a modular structure, where we can open several notebooks or files (e.g. HTML, Text, Markdowns etc) as tabs in the same window. It offers more of an IDE-like experience.</p>
+</li>
+</ul>
+<p><a href="https://stackoverflow.com/questions/50982686/what-is-the-difference-between-jupyter-notebook-and-jupyterlab" target="_blank" rel="noopener">source</a></p>
 <h4 id="references">References</h4>
 <ul>
-<li><a href="https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492" target="_blank" rel="noopener">5 Steps of a Data Science Project Lifecycle</a></li>
+<li>
+<p><a href="https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492" target="_blank" rel="noopener">5 Steps of a Data Science Project Lifecycle</a></p>
+</li>
+<li>
+<p><a href="https://r4ds.had.co.nz/introduction.html" target="_blank" rel="noopener">R for Data Science</a></p>
+</li>
 </ul>
 
           </div>
@@ -801,8 +977,15 @@
   
   
   <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/torch/1_reproduciblereporting/" rel="next">Reproducible Reporting</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/courses/torch/1_reproduciblereporting/" rel="prev">Reproducible Reporting</a>
+    <a href="/courses/torch/3_ml_algorithms/" rel="prev">Machine Learning Algorithms</a>
   </div>
   
 </div>

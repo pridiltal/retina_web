@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://retinalab.netlify.app/courses/torch/1_reproduciblereporting/</loc>
+    <lastmod>2021-02-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://retinalab.netlify.app/courses/oddlab/mlreading/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -18,13 +23,48 @@
   </url>
   
   <url>
-    <loc>https://retinalab.netlify.app/courses/torch/1_reproduciblereporting/</loc>
-    <lastmod>2021-02-01T00:00:00+01:00</lastmod>
+    <loc>https://retinalab.netlify.app/courses/oddlab/dlreading/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://retinalab.netlify.app/courses/oddlab/dlreading/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <loc>https://retinalab.netlify.app/courses/torch/3_ml_algorithms/</loc>
+    <lastmod>2021-03-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/authors/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/post/1_set_theory/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/post/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/tag/retina/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/author/retina/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://retinalab.netlify.app/tags/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,37 +73,7 @@
   </url>
   
   <url>
-    <loc>https://retinalab.netlify.app/</loc>
-    <lastmod>2021-03-30T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://retinalab.netlify.app/authors/</loc>
-    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://retinalab.netlify.app/post/logo/</loc>
-    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://retinalab.netlify.app/post/</loc>
-    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://retinalab.netlify.app/tag/retina/</loc>
-    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://retinalab.netlify.app/author/retina/</loc>
-    <lastmod>2021-03-08T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://retinalab.netlify.app/tags/</loc>
     <lastmod>2021-03-08T01:00:00+00:00</lastmod>
   </url>
   
