@@ -32,6 +32,9 @@ understanding of the underlying concepts.
 
 **Idempotent Laws**  
 
+\begin{equation}
+A\cup A =A \quad\quad\quad\quad A\cap A =A
+\end{equation}
 
 \[A\cup A =A \quad\quad\quad\quad A\cap A =A\]
 
