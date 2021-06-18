@@ -35,6 +35,7 @@ understanding of the underlying concepts.
 
 \[A\cup A =A \quad\quad\quad\quad A\cap A =A\]
 
+$A\cup A =A \quad\quad\quad\quad A\cap A =A$
 
 $$A\cup A =A \quad\quad\quad\quad A\cap A =A$$
 
