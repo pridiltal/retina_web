@@ -12,6 +12,7 @@ lastMod: "2021-06-18"
 projects: []
 subtitle: 
 summary: 
+math: true
 tags: 
 - RETINA
 title: 'Fundamental Laws of Set Algebra- Root Digging'
