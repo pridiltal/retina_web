@@ -19,7 +19,7 @@ title: 'Fundamental Laws of Set Algebra- Root Digging'
 
 This post provides an  intuition about the names of the fundamental laws of Set Algebra.
 
-A ***set*** can be viewed as any  well-defined collection of *objects*. The objects in a set may or may not have similar properties. The word "set" has a Latin origin and is derived from the word  *"secta"* or *"sect"*. The Latin root *sect* means "cut".  [Many English words, such as **sect**ion, **sect**or, in**sect**, dis**sect**, and inter**sect**  also  have this Latin root](https://membean.com/wrotds/sect-cut).
+A **set** can be viewed as any  well-defined collection of *objects*. The objects in a set may or may not have similar properties. The word "set" has a Latin origin and is derived from the word  *"secta"* or *"sect"*. The Latin root *sect* means "cut".  [Many English words, such as **sect**ion, **sect**or, in**sect**, dis**sect**, and inter**sect**  also  have this Latin root](https://membean.com/wrotds/sect-cut).
 The word *sect* also refers to a subgroup of a religious, political, or philosophical belief system.
 
 
@@ -32,9 +32,9 @@ understanding of the underlying concepts.
 
 **Idempotent Laws**  
 
-\begin{equation} 
-A\cup A =A \quad\quad\quad\quad A\cap A =A
-\end{equation}
+
+\[A\cup A =A \quad\quad\quad\quad A\cap A =A\]
+
 
 $$A\cup A =A \quad\quad\quad\quad A\cap A =A$$
 
