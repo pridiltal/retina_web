@@ -82,7 +82,7 @@ $$A \cap A^\prime =\phi \quad\quad\quad\quad    U^\prime =\phi $$
 **DeMorgan's Laws**  
 $$(A \cup B)^\prime =A^\prime \cap B^\prime\quad\quad\quad\quad (A \cap B)^\prime= A^\prime \cup B^\prime$$
 
-According to the De Morgan's Law, the complement of the union of two sets is the intersection of their complements and the complement of the intersection of two sets is the union of their complements. The law is named after the British mathematician and logician, Augustus De Morgan (27 June 1806 – 18 March 1871).
+According to the De Morgan's Law, the complement of the union of two sets is the intersection of their complements and the complement of the intersection of two sets is the union of their complements. The law is named after the British mathematician and logician, Augustus De Morgan (1806 – 1871).
 
 Reference:
 
