@@ -34,7 +34,7 @@ understanding of the underlying concepts.
 **Idempotent Laws**  
 $$A\cup A =A \quad\quad\quad\quad A\cap A =A$$
 
-Under Idempotent Laws the operations can be applied without changing the the initial values of the operands.  The term **"Idem"** has a Latin
+Under Idempotent Law, the operations can be applied without changing  the initial values of the operands.  The term **"Idem"** has a Latin
 origin which means **"the same"**. The second part **"potent"** also has a Latin origin and comes from the Latin word **"posse"** which means **"being powerful"** or **"being able"**. Idempotent Laws show their **power** of remaining on the **same** values, irrespective of the operations being performed on it.
 
 **Associative Laws**  
@@ -60,7 +60,7 @@ $$A \cup \phi =A\quad\quad\quad\quad A \cap \phi =\phi$$
 
 $$A \cup U =U\quad\quad\quad\quad A \cap U =A$$
 
-$\phi$ and $U$ are the identity elements in set algebra. Under identity law the characteristics of the operands determine the *owner* or the *holder* of the final result. The word **identity**  means "quality of being identical"  and has a Latin origin.
+$\phi$ and $U$ are the identity elements in set algebra. Under identity law the characteristics of the operands determine the *owner* or the *holder* of the final result. The word **identity**  means **"quality of being identical"** and has a Latin origin.
 
 **Involution Law**  
 $$(A^\prime)^\prime = A$$
