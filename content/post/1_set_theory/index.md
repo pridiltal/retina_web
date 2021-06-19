@@ -85,6 +85,7 @@ $$(A \cup B)^\prime =A^\prime \cap B^\prime\quad\quad\quad\quad (A \cap B)^\prim
 
 According to the De Morgan's Law, the complement of the union of two sets is the intersection of their complements and the complement of the intersection of two sets is the union of their complements. The law is named after the British mathematician and logician, Augustus De Morgan (1806 – 1871).
 
+
 Reference:
 
 Spiegel, M. R., Schiller, J. J., & Srinivasan, R. A. (2013). Schaum's outline of probability and statistics. McGraw-Hill Education.
