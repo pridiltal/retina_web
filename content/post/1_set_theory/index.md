@@ -48,7 +48,7 @@ Under Associative law, the operands can be **associated** by operators in any wa
 $$A\cup B =B\cup A\quad\quad\quad\quad A\cap B = B\cap A$$
 
 According to commutative laws, the order in which the operators are evaluated does not affect the result. The word **"commute"** comes from Latin
-word **"commutare"**", meaning "to change altogether (from *com* - ‘altogether’ + *mutare* ‘to change’). Therefore, under commutative property we can **move** or (*change*) operands around and still get the same results. The Latin root **"idem"** and then in Late Latin **"identitas"** means **"same"**. 
+word **"commutare"**", meaning **"to change altogether"**" (from *com* - ‘altogether’ + *mutare* ‘to change’). Therefore, under commutative property we can **move** or (*change*) operands around and still get the same results. The Latin root **"idem"** and then in Late Latin **"identitas"** means **"same"**. 
 
 **Distributive Laws**  
 $$A\cup( B \cap C) = (A \cup B) \cap (A\cup C)\quad\quad\quad\quad A\cap( B \cup C) = (A \cap B) \cup (A\cap C)$$
@@ -60,14 +60,14 @@ $$A \cup \phi =A\quad\quad\quad\quad A \cap \phi =\phi$$
 
 $$A \cup U =U\quad\quad\quad\quad A \cap U =A$$
 
-$phi$ and $U$ are the identity elements in set algebra. Under identity law the characteristics of the operands determine the *owner* or the *holder* of final result.The word **identity** which means "quality of being identical"  has a Latin origin.
+$\phi$ and $U$ are the identity elements in set algebra. Under identity law the characteristics of the operands determine the *owner* or the *holder* of the final result. The word **identity**  means "quality of being identical"  and has a Latin origin.
 
 **Involution Law**  
 $$(A^\prime)^\prime = A$$
 
 The involution law states that the double complement of a set gives the same set. The word **"involution"** is derived from the Latin word **"volvere"**, meaning "to roll" (from **in** - *‘into’* + **volvere** - *‘to roll’*).  What happen if you *roll up* your t-shirt inside out twice.
 
-![](set.png)
+!["(a) $A$ , (b) $A^\prime$, (c) ($A^\prime$)^\prime"](set.png)
 
 **Complement Laws**  
 
