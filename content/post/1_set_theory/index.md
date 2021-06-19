@@ -73,9 +73,9 @@ The involution law states that the double complement of a set gives the same set
 
 $$A \cup A^\prime =U\quad\quad\quad\quad \phi^\prime =U$$
 
-The word **"complement"** is derived form the Latin root, **"complere"** which means **"fill up"** (from *com* - (expressing intensive force) + *plere* - ‘fill’). As the name suggested, the above two expressions give the universal set, which contains all the objects under consideration.
+The word **"complement"** is derived form the Latin root, **"complere"** which means **"fill up"** (from *com* - 'expressing intensive force' + *plere* - ‘fill’). As the name suggested, the above two expressions give the universal set, which contains all the objects under consideration.
 
-The below expressions also in regards to the universal set, the **complete** set of objects under consideration.
+The below expressions also in regards to the universal set which is the **complete** set of objects under consideration.
 
 $$A \cap A^\prime =\phi \quad\quad\quad\quad    U^\prime =\phi $$
 
