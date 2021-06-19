@@ -68,7 +68,7 @@ $$(A^\prime)^\prime = A$$
 The involution law states that the double complement of a set gives the same set. The word **"involution"** is derived from the Latin word **"volvere"**, meaning "to roll" (from **in** - *‘into’* + **volvere** - *‘to roll’*).  What happen if you *roll up* your t-shirt inside out twice.
 
 !["(a) $A$ , (b) $A^\prime$, (c) ($A^\prime$)^\prime"](set.png)
-Figure: (a) $A$ , (b) $A^\prime$, (c) $A^\prime)^\prime$
+Figure: (a) $A$ , (b) $A^\prime$, (c) $A^\prime)^\prime = A$
 
 **Complement Laws**  
 
