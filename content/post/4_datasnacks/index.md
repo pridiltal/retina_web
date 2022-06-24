@@ -16,7 +16,7 @@ tags:
 title: Data Snacks
 url_code: ""
 url_pdf: ""
-url_slides: "/workshops/R-Intro4AI.html""
+url_slides: "/workshops/intro/R-Intro4AI.html""
 url_video: ""
 ---
 

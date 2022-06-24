@@ -1,0 +1,215 @@
+---
+title: "Let's Enjoy Cricket with R!"
+subtitle: "Introduction to R and R Studio"
+author: "Dr.Priyanga D. Talagala"
+#institute: "R-Ladies Colombo, Sri Lanka"
+date: "24/06/2022 (#YellowFriday) </br></br> Workshop on open source software tools for mathematics and statistics"
+output:
+  xaringan::moon_reader:
+    css: ["default", "rladies", "rladies-fonts", "xaringan-themer.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+options(htmltools.dir.version = FALSE)
+opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  cache.path = 'cache/',
+  fig.align = 'center',
+  cache = FALSE
+)
+library(anicon)
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  inverse_background_color = "#ffc800",
+  title_slide_background_color = "#ffc800",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  title_slide_text_color = "#041b78",
+  inverse_header_color = "#041b78",
+  inverse_text_color = "#041b78",
+  header_background_text_color = "#041b78",
+  base_font_size = "20px",
+  text_font_size = "1.2rem",
+  )
+```
+class: inverse, middle, center
+
+## Welcome to the workshop on open source software tools for mathematics and statistics
+---
+class: inverse, middle, center
+
+## Workshop on open source software tools for mathematics and statistics
+
+Introduction to OCTAVE
+
+Introduction to Julia 
+
+**Introduction to R & R studio**
+
+---
+
+class: inverse, middle, center
+
+
+## Dr. Priyanga D. Talagala
+
+Senior Lecturer, Department of Computational Mathematics
+
+PhD in Statistics, 
+Monash University, Australia
+
+Email: priyangad@uom.lk
+
+Web: prital.netlify.app
+
+`r anicon::faa("twitter", animate="float", size =2, speed = "fast", colour = "blue", rtext= "pridiltal")`
+
+--
+
+My research focuses on statistical machine learning and Time series analysis and forecasting.
+
+---
+
+class: inverse, middle, center
+
+# Why Learn R?
+```{r   out.width = "30%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/Rlogo.png")
+
+```
+---
+.pull-left[
+#### `DSjobtracker` R Package (on CRAN, 2020)
+<font size="2">by Statistical Consultancy Service, <br/>
+University of Sri Jayewardenepura, 2020
+https://thiyangt.github.io/DSjobtracker/
+ </font>
+]
+.pull-right[
+```{r   out.width = "30%", echo = FALSE}
+knitr::include_graphics("fig/DSjobtrackerhexsticker.png")
+```
+]
+
+#### Top twenty skills required for data science jobs
+
+```{r out.width = "55%"}
+library(DSjobtracker)
+library(tidyr)
+library(magrittr)
+library(dplyr)
+library(ggplot2)
+library(viridis)
+library(forcats)
+
+theme_set(theme_minimal())
+
+skills_long <- DStidy %>%
+  select(c(R:Bahasa_Malaysia)) %>%
+  pivot_longer(c(R:Bahasa_Malaysia), values_to = "Value", names_to = "Name") %>%
+  mutate(Value = as.numeric(levels(Value))[Value]) %>%
+  group_by(Name) %>%
+  summarize(Total = sum(Value)) %>%
+  arrange(Total)
+
+p<- skills_long %>%
+  mutate(Name = factor(Name, levels = .$Name)) %>%
+  top_n(20) %>%
+  ggplot(aes(x = Name, y = Total)) +
+  geom_bar(stat = "identity") +
+  geom_label(aes(label = Total),
+    nudge_y = -10, size = 5,
+    label.padding = unit(0.125, "lines")
+  ) +
+  coord_flip() +
+  labs(
+    x = "Skill Required", y = "No of job vacancies"
+  )+
+  theme(text = element_text(size=20))
+
+print (p)
+```
+
+<!--Both of these datasets contain information about job vacancies related to data science-->
+---
+
+
+class: inverse, middle, center
+
+# R Vs Python 
+
+---
+class: inverse, middle, center
+
+
+# ~~R Vs Python~~
+
+# R AND Python 
+--
+
+```{r out.width = "50%"}
+library(tibble)
+library(tidyverse)
+skills <- c("R and Python", "Python only", "Other Statistical SW", "R, SAS & Python only", "SAS only" )
+count <- c(124,91,67,26,13)
+data <- tibble(skills, count)
+
+
+p<- data %>%
+  ggplot(aes(x = reorder(skills, count) , y = count)) +
+  geom_bar(stat = "identity") +
+  geom_label(aes(label = count),
+    nudge_y = -10, size = 5,
+    label.padding = unit(0.125, "lines")
+  ) +
+  coord_flip() +
+  labs(
+    x = "Skill Required", y = "No of  advertisements"
+  )+
+  theme(text = element_text(size=20))
+print(p)
+```
+---
+class: inverse, middle, center
+
+
+
+# Buckle Up! Let's dive into R! `r anicon::faa("bell", animate="ring", size =2, speed = "fast")`
+---
+class:  middle, center
+
+### First follow the  installation guidelines document to install R and RStudio.
+
+
+---
+
+background-image:url('fig/tidyworkflow1.png')
+background-position: 60% 80%
+background-size: 100%
+class: top, center
+# Tidy Workflow
+---
+background-image:url('fig/tidyworkflow2.png')
+background-position: 60% 80%
+background-size: 100%
+class: top, center
+
+# Tidy Workflow
+
+
+
+
+
