@@ -15,219 +15,77 @@ summary:
 math: true
 tags: 
 - RETINA
-title: 'Mini-workshops on open source software tools for data science'
+title: 'Fundamental Laws of Set Algebra- Root Digging'
 ---
 
-# Let's Enjoy Cricket with R!
+This post provides an  intuition about the names of the fundamental laws of Set Algebra.
 
-## Introduction to Tidy Tools in R
+A *set* can be viewed as any  well-defined collection of *objects*. The objects in a set may or may not have similar properties. The word "set" has a Latin origin and is derived from the word  *"secta"* or *"sect"*. The Latin root *sect* means "cut".  [Many English words, such as **sect**ion, **sect**or, in**sect**, dis**sect**, and inter**sect**  also  have this Latin root](https://membean.com/wrotds/sect-cut).
+The word *sect* also refers to a subgroup of a religious, political, or philosophical belief system.
 
-##  Load R packages
 
-```{r}
-library(cricketdata)
-library(tidyverse)
-```
+## Algebra of Sets
 
-## Data
+Sets under the operations of union, intersection, and complement satisfy various laws with well-established names. The roots of these names they borrow from other languages provide  additional intuition and
+understanding of the underlying concepts.
 
-In this workshop we will use `cricketdata` R package by [Rob Hyndman](https://robjhyndman.com/hyndsight/cricketdata/) and his team,  to get a better understanding of the concepts of exploration, visualization, and potential analyses. 
+**Laws of the Algebra of Sets**
 
-This post was inspire by Rob Hyndman's recent post on ["The cricketdata package"](https://robjhyndman.com/hyndsight/cricketdata/).
+**Idempotent Laws**  
+$$A\cup A =A \quad\quad\quad\quad A\cap A =A$$
 
-There are four key functions in the `cricketdata` package:
+Under Idempotent Law, the operations can be applied without changing  the initial values of the operands.  The term **"Idem"** has a Latin
+origin which means **"the same"**. The second part **"potent"** also has a Latin origin and comes from the Latin word **"posse"** which means **"being powerful"** or **"being able"**. Idempotent Laws show their **power** of remaining on the **same** values, irrespective of the operations being performed on it.
 
-  - `fetch_cricinfo()`: Fetch team data on international cricket matches provided by ESPNCricinfo.
-  - `fetch_player_data()`: Fetch individual player data on international cricket matches provided by ESPNCricinfo.
-  - `find_player_id()`: Search for the player ID on ESPNCricinfo.
-  - `fetch_cricsheet()`: Fetch ball-by-ball, match and player data from Cricsheet.
-  
-### Sri Lanka men’s ODI data by innings
+**Associative Laws**  
+$$(A\cup B)\cup C =A\cup (B\cup C) \quad\quad\quad\quad (A\cap B)\cap C =A\cap (B\cap C)$$
 
-This example shows Sri Lankan men’s ODI batting results by innings.
+Under Associative law, the operands can be **associated** by operators in any way desired.
+ The Latin root is **"associare"** which means **"join with"** or **"to unite"**. Under associative law the **grouping** (or **association**) of the operands does not affect the result.
 
-```{r}
-menODI <- fetch_cricinfo("ODI", "Men", "Batting", type = "innings", country = "Sri Lanka")
 
-colnames(menODI)
-```
+**Commutative Laws**  
+$$A\cup B =B\cup A\quad\quad\quad\quad A\cap B = B\cap A$$
 
-## Data Import and Export
+According to commutative laws, the order in which the operators are evaluated does not affect the result. The word **"commute"** comes from Latin
+word **"commutare"**", meaning **"to change altogether"**" (from *com* - ‘altogether’ + *mutare* ‘to change’). Therefore, under commutative property we can **move** or (*change*) operands around and still get the same results. The Latin root **"idem"** and then in Late Latin **"identitas"** means **"same"**. 
 
-```{r}
-# Export Data
-write_csv(menODI, "SLmenODI.csv")
-```
+**Distributive Laws**  
+$$A\cup( B \cap C) = (A \cup B) \cap (A\cup C)\quad\quad\quad\quad A\cap( B \cup C) = (A \cap B) \cup (A\cap C)$$
 
+The word **"Distributive"** has a Latin origin and comes from the word **"distribut"**, meaning **"divided up"**. Under Distributive Law we **"spread out"** or **"share"** the initial part with all the other terms.
 
-```{r}
-# Import Data
-data <- read_csv("SLmenODI.csv")
-head(data)
-```
+**Identity Laws**  
+$$A \cup \phi =A\quad\quad\quad\quad A \cap \phi =\phi$$
 
-## Data wrangling
+$$A \cup U =U\quad\quad\quad\quad A \cap U =A$$
 
-Data wrangling is the process of cleaning and unifying messy and complex data sets for easy access and analysis.
+$\phi$ and $U$ are the identity elements in set algebra. Under identity law the characteristics of the operands determine the *owner* or the *holder* of the final result. The word **identity**  means **"quality of being identical"** and has a Latin origin.
 
-There are five dplyr functions that you will use to do the vast majority of data manipulations:
+**Involution Law**  
+$$(A^\prime)^\prime = A$$
 
- - `filter()`: pick observations by their values
- - `select()`: pick variables by their names
- - `mutate()`: create new variables with functions of existing variables
- - `summarise()`: collapse many values down to a single summary
- - `arrange()`: reorder the rows
+The involution law states that the double complement of a set gives the same set. The word **"involution"** is derived from the Latin word **"volvere"**, meaning "to roll" (from **in** - *‘into’* + **volvere** - *‘to roll’*).  What happen if you *roll up* your t-shirt inside out twice.
 
+!["(a) $A$ , (b) $A^\prime$, (c) ($A^\prime$)^\prime"](set.png)
+$Figure: (a) $A$ , (b) $A^\prime$, (c) ($A^\prime$)^\prime$
 
-### Pipe (%>%) Operator
+**Complement Laws**  
 
- - The principal function provided by the `magrittr` package is `%>%`, or what’s called the “pipe” operator. 
- - This operator will forward a value, or the result of an expression, into the next function call/expression. 
+$$A \cup A^\prime =U\quad\quad\quad\quad \phi^\prime =U$$
 
-```{r}
+The word **"complement"** is derived form the Latin root, **"complere"** which means **"fill up"** (from *com* - 'expressing intensive force' + *plere* - ‘fill’). As the name suggested, the above two expressions give the universal set, which contains all the objects under consideration.
 
-menODI %>%
-  filter(Date == "2022-06-19")
-```
+The below expressions also in regards to the universal set which is the **complete** set of objects under consideration.
 
-```{r}
-menODI %>%
-  select(Date, Player, Runs, StrikeRate, NotOut)
-```
+$$A \cap A^\prime =\phi \quad\quad\quad\quad    U^\prime =\phi $$
 
+**DeMorgan's Laws**  
+$$(A \cup B)^\prime =A^\prime \cap B^\prime\quad\quad\quad\quad (A \cap B)^\prime= A^\prime \cup B^\prime$$
 
-```{r}
-menODI %>%
-  group_by(Player) %>%
-  summarise(Runs = mean(Runs), matches = n()) %>%
-  arrange(desc(Runs))
-```
+According to the De Morgan's Law, the complement of the union of two sets is the intersection of their complements and the complement of the intersection of two sets is the union of their complements. The law is named after the British mathematician and logician, Augustus De Morgan (1806 – 1871).
 
-```{r}
-menODI %>% 
-  filter(Player == "BKG Mendis") %>% 
-  arrange(desc(Date))
-```
 
-## Data Visualization
+Reference:
 
-```{r}
-p <- menODI %>%
-  filter(Opposition %in% c("Australia", "Bangladesh", "Pakistan") )%>%
-  ggplot(aes(y = Runs, x = Date, col = Opposition)) +
-  geom_point(alpha = 0.7) +
-  geom_smooth()+
-  ggtitle("Sri Lanka Men ODI: Runs per Innings")
-  
-print(p) 
-```
-
-
-The average number of runs per innings for Bangladesh is higher than that for Australia and Pakistan, even though the performance has gradually declined over time.
-
-### Sri Lanka test fielding data
-
-Next, we demonstrate some of the fielding data available, using Test match fielding from Sri Lankan men’s players.
-
-```{r}
-SLfielding <- fetch_cricinfo("Test", "Men", "Fielding", 
-                              country = "Sri Lanka")
-head(SLfielding)
-
-colnames(SLfielding)
-```
-
-We can plot the number of dismissals by number of matches for all male test players. 
-
-```{r}
-p1 <- SLfielding %>%
-  ggplot(aes(x = Matches, y = Dismissals)) +
-  geom_point() +
-  ggtitle("Sri Lanka Men Test Fielding")
-
-print(p1)
-```
-
-
-Because wicket keepers typically have a lot more dismissals than other players, let's show them in a different colour.
-
-
-```{r}
-p2 <- SLfielding %>%
-  mutate(wktkeeper = (CaughtBehind > 0) | (Stumped > 0)) %>%
-  ggplot(aes(x = Matches, y = Dismissals, col = wktkeeper)) +
-  geom_point() +
-  ggtitle("Sri Lanka Men Test Fielding")
-
-print(p2)
-```
-
-We can see two outlying points. I would like to do further investigation into them.
-
-### Interactive data visualization
-
-Interactive data visualization is the use of tools and processes to create a visual representation of data that can be explored and analyzed directly within the visualization itself. This interaction can help to uncover insights that lead to better, data-driven decisions.
-
-`plotly` R package allows us to create interactive and publication-quality charts/graphs in R. 
-
-```{r}
-p3 <- SLfielding %>%
-  mutate(wktkeeper = (CaughtBehind > 0) | (Stumped > 0)) %>%
-  ggplot(aes(x = Matches, y = Dismissals, col = wktkeeper,
-             text=Player)) +
-  geom_point() +
-  ggtitle("Sri Lanka Men Test Fielding")
-
-library(plotly)
-ggplotly(p3)
-
-
-```
-
-The high number of dismissals, just above 200, is due to Kumar Sangakkara. Another interesting statistic is the non-wicketkeeper with over 200 dismissals.This is Mahela Jayawardene who took 205 catches during his career.
-
-### Kusal Mendis’s ODI batting
-
-Finally, consider the data for individual players. The Cricinfo player ID is required for the `fetch_player_data()` function, which you can find on their website or by using the `find_player_id()` function. We'll look at Kusal Medis's ODI results.
-
-```{r}
-KMendis_id <- find_player_id("BKG Mendis")$ID
-KMendis <- fetch_player_data(KMendis_id, "ODI") %>%
-  mutate(NotOut = (Dismissal == "not out"))
-
-head(KMendis)
-```
-
-Let's can plot his runs per innings on the vertical axis over time on the horizontal axis.
-
-```{r}
-# Compute batting average
-KMave <- KMendis %>%
-  filter(!is.na(Runs)) %>%
-  summarise(Average = sum(Runs) / (n() - sum(NotOut))) %>%
-  pull(Average)
-names(KMave) <- paste("Average =", round(KMave, 2))
-KMave
-
-
-# Plot ODI scores
-ggplot(KMendis) +
-  geom_hline(aes(yintercept = KMave), col="gray") +
-  geom_point(aes(x = Start_Date, y = Runs, col = NotOut)) +
-  ggtitle("Kusal Mendis ODI Scores") 
-```
-
-Around 2021, a significant blank space is visible. In July 2021, Mendis was suspended from playing in international cricket for one year. Sri Lanka Cricket agreed to lift the ban early, removing the punishment in January 2022. Now Kusal Mendis is back in the squad.
-
-
-**Keep Exploring! Happy Learning with R!!**
-
-### Additional Resources {-}
-
-[R for Data Science by by Hadley Wickham and Garrett Grolemund](https://r4ds.had.co.nz/)
-
-This is a great data science book for beginners interested in learning data science with R.
-
-### References {-}
-
-Rob Hyndman, Timothy Hyndman, Charles Gray, Sayani Gupta and Jacquie Tran (2022). cricketdata: International Cricket Data. R package version 0.1.1. https://CRAN.R-project.org/package=cricketdata
+Spiegel, M. R., Schiller, J. J., & Srinivasan, R. A. (2013). Schaum's outline of probability and statistics. McGraw-Hill Education.
