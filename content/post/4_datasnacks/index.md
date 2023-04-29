@@ -6,7 +6,7 @@ date: "2021-06-18"
 draft: false
 featured: false
 image:
-  caption: "Image credit: pixabay"
+  caption: "Image credit-pixabay"
   focal_point: ""
 lastMod: "2021-06-18"
 projects: []
