@@ -34,8 +34,8 @@ Whether you're a school student, undergraduate, academic, or industry profession
 
 ### Your photo has the power to enhance our understanding of the concept of anomalies and the different aspects we should consider when defining them. So grab your camera, and let's capture the unexpected!
 
-Submissions for the photo competition will be accepted until May 30th, 2023. 
+## Submissions for the photo competition will be accepted until May 30th, 2023. 
 
-# To enter, please email your photo and description to retinalab.owsd@gmail.com with the subject line "The Odd Shot".
+**To enter, please email your photo and description to retinalab.owsd@gmail.com with the subject line "The Odd Shot".**
 
 ## We look forward to seeing your creative submissions!
