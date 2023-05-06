@@ -38,6 +38,11 @@
   name = "ODDLab"
   url = "courses/"
   weight = 80
+  
+[[main]]
+  name = "Workshops"
+  url = "workshops/"
+  weight = 90
 
 #[[main]]
 #  name = "Gallery"
