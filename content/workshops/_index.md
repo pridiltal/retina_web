@@ -3,6 +3,7 @@ header:
   caption: ""
   image: ""
 title: Workshops
-external_link: https://retina-studio.netlify.app/
 view: 2
 ---
+
+[RETINA Workshop Series on Anomaly Detection] (https://retina-studio.netlify.app/)
