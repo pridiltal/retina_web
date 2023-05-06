@@ -6,4 +6,4 @@ title: Workshops
 view: 2
 ---
 
-[RETINA Workshop Series on Anomaly Detection] (https://retina-studio.netlify.app/)
+[RETINA Workshop Series on Anomaly Detection](https://retina-studio.netlify.app/)

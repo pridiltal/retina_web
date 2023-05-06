@@ -41,7 +41,7 @@
   
 [[main]]
   name = "Workshops"
-  url = "workshops/"
+  url = "https://retina-studio.netlify.app/"
   weight = 90
 
 #[[main]]
