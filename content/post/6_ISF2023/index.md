@@ -16,6 +16,7 @@ math: true
 tags: 
 - RETINA
 title: 'Anomaly Detection in Image Time Series Using Explainable AI (XAI)'
+url_slides: "talks/ISF2023/ISF_2023.html" 
 ---
 
 ## Anomaly Detection in Image Time Series Using Explainable AI (XAI)
@@ -31,6 +32,6 @@ improving the explainable AI component of the proposed framework. Our proposed f
 of a deep learning-based computer vision module that derives a feature space from the ITS data, a deep
 learning-based time series forecasting module that generates a probability distribution for each time period, and an extreme value theory-based boundary prediction process that helps identify anomalies. To address the lack of transparency and interpretability in the deep learning-based anomaly detection component, we integrate an explainable AI (XAI) module that provides post-hoc, model-agnostic, and local explanations, increasing the trustworthiness of the prediction of anomalous behaviours. Our experiments with satellite image time series (SITS) show that the proposed algorithm can work well even in the presence of noisy image time series data and that the XAI module improves the transparency and interpretability of the deep learning-based anomaly detection framework. Overall, our proposed framework provides a powerful tool for detecting the progression of unusual behaviours in ITS with increased trustworthiness and interpretability and has a wide range of applications in environmental monitoring, disaster management, and climate change analysis.
 
-[Slides](talks/ISF2023/ISF_2023.html)
+[Slides]('talks/ISF2023/ISF_2023.html')
 
 
