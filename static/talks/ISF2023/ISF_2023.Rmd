@@ -2,7 +2,7 @@
 title: "Anomaly Detection in Image Time Series Using Explainable AI (XAI)"
 institute: <span style="color:#279657 ; font-size:18.0pt">43rd International Symposium on Forecasting</span> </br>  <span style="color:#279657  ; font-size:18.0pt">28-07-2023</span>
 author: <span style="color:#279657">Priyanga Dilini Talagala </span>
-date: </br> </br> <span style="color:#8dcefc; font-size:18.0pt"> Slides available at prital.netlify.app </span>`r anicon::faa("globe", animate="ring", size =1, speed = "fast", colour = "white")`</br>  <span style="color:#ffffff ; font-size:18.0pt">Slides created via the R package xaringan</span>
+date: </br> </br> <span style="color:#8dcefc; font-size:18.0pt"> Slides available at retinalab.netlify.app </span>`r anicon::faa("globe", animate="ring", size =1, speed = "fast", colour = "white")`</br>  <span style="color:#ffffff ; font-size:18.0pt">Slides created via the R package xaringan</span>
 output:
   xaringan::moon_reader:
     css: ["default", "xaringan-themer.css" ]
@@ -119,7 +119,7 @@ class: inverse, center, middle
 
 ### Aim 
 
-- To develop a novel framework that detects and interprets anomalies in image streams using computer vision, time series forecasting, extreme value theory, and explainable AI.
+- To develop a novel framework that detects and interprets anomalies in image streams.
 
 --
 
@@ -432,7 +432,7 @@ pridiltal
 
 icon::fa("globe")
 ```
-https://prital.netlify.app/ </br>
+https://retinalab.netlify.app/ </br>
 (Slides available)
 
 
@@ -441,6 +441,11 @@ https://prital.netlify.app/ </br>
 This work was supported in part by RETINA research lab funded by the OWSD, a program unit of United Nations Educational, Scientific and Cultural Organization (UNESCO).
 
 ---
+
+---
+```{r   out.width = "90%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/time.png")
+```
 
 ---
 
