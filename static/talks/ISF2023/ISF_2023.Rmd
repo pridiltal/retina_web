@@ -239,6 +239,14 @@ knitr::include_graphics("fig/19_EVT.png")
 
 ]
 ---
+class: inverse, center, middle
+
+```{r   out.width = "100%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/paper.png")
+```
+
+
+---
 
 ### On-line Phase
 ```{r   out.width = "90%", echo = FALSE, fig.cap='', fig.align='center'}
